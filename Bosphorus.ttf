@@ -1,0 +1,26 @@
+project-root/
+├── index.html
+├── styles.css
+└── fonts/
+    ├── Bosphorus-Thin.otf
+    ├── Bosphorus-Thin.ttf
+    ├── Bosphorus-Thin.eot
+    ├── Bosphorus-Thin.woff
+    ├── Bosphorus-Thin.woff2
+    ├── Bosphorus-ThinItalic.otf
+    ├── ...
+  @font-face {
+  font-family: 'Bosphorus';
+  src: url('./fonts/Bosphorus-BoldItalic.eot');
+  src: url('./fonts/Bosphorus-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Bosphorus-BoldItalic.woff2') format('woff2'),
+       url('./fonts/Bosphorus-BoldItalic.woff') format('woff'),
+       url('./fonts/Bosphorus-BoldItalic.ttf') format('truetype'),
+       url('./fonts/Bosphorus-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}  └── Bosphorus-BlackItalic.woff2Bosphorus-Thin
+Bosphorus-ThinItalic
+Bosphorus-Light
+...
+Bosphorus-BlackItalic
