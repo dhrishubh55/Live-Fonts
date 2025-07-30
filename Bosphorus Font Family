@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Bosphorus';
+  src: url('./fonts/Bosphorus-Regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/Bosphorus-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Bosphorus-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/Bosphorus-Regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/Bosphorus-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/Bosphorus-Regular.otf') format('opentype'); /* Optional */
+  font-weight: normal;
+  font-style: normal;
+}body {
+  font-family: 'Bosphorus', sans-serif;
+}styles.cssindex.htmlyour-repo/
+├── index.html
+├── styles.css
+└── fonts/
+    └── Bosphorus-Regular.woff2 (etc.)<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bosphorus Font Test</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Hello in Bosphorus Font!</h1>
+</body>
+</html>
